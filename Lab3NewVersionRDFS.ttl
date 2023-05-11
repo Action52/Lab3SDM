@@ -26,7 +26,7 @@ gf:assignedBy rdf:type rdf:Property ;
 ###  http://www.gra.fo/schema/presents#
 gf:presents rdf:type rdf:Property ;
             rdfs:domain gf:Venue ;
-            rdfs:range gf:Researcheffort ;
+            rdfs:range gf:Area ;
             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
             rdfs:label "presents" .
 
@@ -74,8 +74,8 @@ gf:editedby rdf:type rdfs:Property ;
 
 ### http://www.gra.fo/schema/untitled-ekg#embodies
 gf:embodies rdf:type rdfs:Property ;
-            rdfs:domain gf:Publication ;
-            rdfs:range gf:Researcheffort ;
+            rdfs:domain gf:Paper ;
+            rdfs:range gf:Area ;
             rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
             rdfs:label "embodies" .
 
@@ -144,11 +144,11 @@ gf:affiliation rdf:type rdfs:Datatype ;
                rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
                rdfs:label "affiliation" .
 
-### http://www.gra.fo/schema/untitled-ekg#area
-gf:area rdf:type rdfs:Datatype ;
-        rdfs:domain gf:Researcheffort ;
+### http://www.gra.fo/schema/untitled-ekg#keyword
+gf:keyword rdf:type rdfs:Datatype ;
+        rdfs:domain gf:Area ;
         rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
-        rdfs:label "area" .
+        rdfs:label "keyword" .
 
 ### http://www.gra.fo/schema/untitled-ekg#decision
 gf:decision rdf:type rdfs:Datatype ;
@@ -325,10 +325,10 @@ gf:Regularconference rdf:type rdfs:Class ;
                      rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
                      rdfs:label "RegularConference" .
 
-### http://www.gra.fo/schema/untitled-ekg#Researcheffort
-gf:Researcheffort rdf:type rdfs:Class ;
+### http://www.gra.fo/schema/untitled-ekg#Area
+gf:Area rdf:type rdfs:Class ;
                   rdfs:isDefinedBy <http://www.gra.fo/schema/untitled-ekg> ;
-                  rdfs:label "ResearchEffort" .
+                  rdfs:label "Area" .
 
 ### http://www.gra.fo/schema/untitled-ekg#Review
 gf:Review rdf:type rdfs:Class ;
