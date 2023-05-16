@@ -1,6 +1,8 @@
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.ModelFactory;
 
+import java.io.IOException;
+
 
 public class ABox {
 
@@ -8,9 +10,10 @@ public class ABox {
 
         // Create an empty OntModel
         OntModel publication_ontmodel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
+        String ontologyFilePath = "final-ontology.owl";
 
         // Read the TBox (ontology) from the OWL file
-        publication_ontmodel.read("final-ontology.owl", "OWL");
+        publication_ontmodel.read(ontologyFilePath, "OWL");
 
         String baseURI = "http://www.publicationprocess.com/ontology#";
 
@@ -78,7 +81,16 @@ public class ABox {
         DatatypeProperty venuedateProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-date");
         DatatypeProperty venuenameProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-name");
 
-
+        try {
+            String csvFilePath = "/Users/alfredo.leon/Google Drive/Mi unidad/BDMA/2nd Semester/Semantic Data Management/labs/lab3/Lab3SDM/triplets_csv_parsed.csv";
+            PaperIterator paperIterator = new PaperIterator(csvFilePath);
+            while (paperIterator.hasNext()) {
+                PaperRow paper = paperIterator.next();
+                System.out.println(paper);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }
