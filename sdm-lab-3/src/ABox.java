@@ -79,6 +79,7 @@ public class ABox {
         DatatypeProperty venuenameProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-name");
 
 
+
     }
 
 }
