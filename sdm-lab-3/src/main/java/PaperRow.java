@@ -40,7 +40,7 @@ public class PaperRow {
     public PaperRow(CSVRecord record) {
         // Assuming CSV file has columns named exactly as the Paper class fields
         authors = record.get("Authors").split(",");
-        authorIds = record.get("Author(s) ID").split(",");
+        authorIds = record.get("Author(s) ID").split(";");
         title = record.get("Title");
         year = Integer.parseInt(record.get("Year"));
         sourceTitle = record.get("Source title");

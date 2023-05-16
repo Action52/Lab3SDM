@@ -1,21 +1,26 @@
 import org.apache.jena.ontology.*;
+import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.vocabulary.RDF;
+import org.apache.jena.sparql.vocabulary.FOAF;
 
+
+import java.io.FileWriter;
 import java.io.IOException;
 
 
 public class ABox {
-
+    public static String baseURI = "http://www.publicationprocess.com/ontology#";
     public static void main(String[] args){
-
         // Create an empty OntModel
         OntModel publication_ontmodel = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
         String ontologyFilePath = "final-ontology.owl";
+        String turtleFilePath = "abox.ttl";
 
         // Read the TBox (ontology) from the OWL file
         publication_ontmodel.read(ontologyFilePath, "OWL");
-
-        String baseURI = "http://www.publicationprocess.com/ontology#";
 
         // Create classes
         OntClass academicClass = publication_ontmodel.getOntClass(baseURI + "Academic");
@@ -81,16 +86,59 @@ public class ABox {
         DatatypeProperty venuedateProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-date");
         DatatypeProperty venuenameProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-name");
 
+
+
         try {
             String csvFilePath = "/Users/alfredo.leon/Google Drive/Mi unidad/BDMA/2nd Semester/Semantic Data Management/labs/lab3/Lab3SDM/triplets_csv_parsed.csv";
             PaperIterator paperIterator = new PaperIterator(csvFilePath);
             while (paperIterator.hasNext()) {
-                PaperRow paper = paperIterator.next();
-                System.out.println(paper);
+                PaperRow paperRow = paperIterator.next();
+                // Creating author resources
+                try{
+                    createAuthors(publication_ontmodel, paperRow, authorClass, nameProperty);
+                    OntClass pC = paperClass;
+                    if(paperRow.paperType.contains("Short Paper")){
+                        pC = shortpaperClass;
+                    }
+                    else if(paperRow.paperType.contains("Demo Paper")){
+                        pC = demopaperClass;
+                    }
+                    else if(paperRow.paperType.contains("Full Paper")){
+                        pC = fullpaperClass;
+                    }
+                    createTitles(publication_ontmodel, paperRow, pC, titleProperty);
+
+                } catch (Exception ex){
+                    continue;
+                }
+                System.out.println(paperRow);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        saveModelAsRdfXml(publication_ontmodel, turtleFilePath, "TTL");
     }
 
+    public static void createAuthors(Model model, PaperRow paperRow, OntClass authorClass, DatatypeProperty nameProperty){
+        for(int i=0; i<paperRow.authors.length; i++){
+            System.out.println(paperRow.authors[i]);
+            Author auth = new Author(model, paperRow.authors[i], baseURI+paperRow.authorIds[i], nameProperty, authorClass);
+            model.add(auth, RDF.type, FOAF.Person);
+        }
+    }
+
+    public static void createTitles(Model model, PaperRow paperRow, OntClass paperClass, DatatypeProperty titleProperty){
+        System.out.println(paperRow.title);
+        Paper paper = new Paper(model, paperRow.title, baseURI+paperRow.title.replace(" ", "_"), titleProperty, paperClass);
+        model.add(paper, RDF.type, FOAF.Document);
+    }
+
+    public static void saveModelAsRdfXml(Model model, String filePath, String format) {
+        try (FileWriter out = new FileWriter(filePath)) {
+            model.write(out, format);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
