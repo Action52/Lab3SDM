@@ -72,6 +72,7 @@ public class TBox {
         fullpaper.addSuperClass(paper);
         shortpaper.addSuperClass(paper);
         demopaper.addSuperClass(paper);
+        poster.addSuperClass(paper);
 
         conference.addSuperClass(venue);
         journal.addSuperClass(venue);
@@ -99,7 +100,7 @@ public class TBox {
 
         DatatypeProperty decisionProperty = publication_ontmodel.createDatatypeProperty(baseURI + "decision");
         decisionProperty.addDomain(review);
-        decisionProperty.addRange(XSD.xboolean);
+        decisionProperty.addRange(XSD.xstring);
 
         DatatypeProperty editionProperty = publication_ontmodel.createDatatypeProperty(baseURI + "edition");
         editionProperty.addDomain(conference);
@@ -139,7 +140,7 @@ public class TBox {
 
         DatatypeProperty venuenameProperty = publication_ontmodel.createDatatypeProperty(baseURI + "venue-name");
         venuenameProperty.addDomain(review);
-        venuenameProperty.addRange(XSD.xboolean);
+        venuenameProperty.addRange(XSD.xstring);
 
 
         // Create an object property
@@ -159,17 +160,17 @@ public class TBox {
         compiledFor.addDomain(journalvolume);
         compiledFor.addRange(journal);
 
-        ObjectProperty demoedAt = publication_ontmodel.createObjectProperty(baseURI + "demoed-at");
-        demoedAt.addDomain(poster);
-        demoedAt.addRange(conference);
+//        ObjectProperty demoedAt = publication_ontmodel.createObjectProperty(baseURI + "demoed-at");
+//        demoedAt.addDomain(poster);
+//        demoedAt.addRange(conference);
 
-        ObjectProperty describes = publication_ontmodel.createObjectProperty(baseURI + "describes");
-        describes.addDomain(poster);
-        describes.addRange(publication);
+//        ObjectProperty describes = publication_ontmodel.createObjectProperty(baseURI + "describes");
+//        describes.addDomain(poster);
+//        describes.addRange(publication);
 
-        ObjectProperty designs = publication_ontmodel.createObjectProperty(baseURI + "designs");
-        designs.addDomain(author);
-        designs.addRange(poster);
+//        ObjectProperty designs = publication_ontmodel.createObjectProperty(baseURI + "designs");
+//        designs.addDomain(author);
+//        designs.addRange(poster);
 
         ObjectProperty editedBy = publication_ontmodel.createObjectProperty(baseURI + "edited-by");
         editedBy.addDomain(journal);
