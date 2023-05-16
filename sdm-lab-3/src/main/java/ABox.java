@@ -80,11 +80,7 @@ public class ABox {
         DatatypeProperty titleProperty = publication_ontmodel.getDatatypeProperty(baseURI + "title");
         DatatypeProperty venuedateProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-date");
         DatatypeProperty venuenameProperty = publication_ontmodel.getDatatypeProperty(baseURI + "venue-name");
-
-<<<<<<< HEAD:sdm-lab-3/src/ABox.java
-
-
-=======
+        
         try {
             String csvFilePath = "/Users/alfredo.leon/Google Drive/Mi unidad/BDMA/2nd Semester/Semantic Data Management/labs/lab3/Lab3SDM/triplets_csv_parsed.csv";
             PaperIterator paperIterator = new PaperIterator(csvFilePath);
@@ -95,7 +91,6 @@ public class ABox {
         } catch (IOException e) {
             e.printStackTrace();
         }
->>>>>>> origin:sdm-lab-3/src/main/java/ABox.java
     }
 
 }
