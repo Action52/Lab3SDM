@@ -4,9 +4,14 @@ import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.reasoner.Reasoner;
 import org.apache.jena.reasoner.ReasonerRegistry;
 import org.apache.jena.reasoner.ValidityReport;
+import org.apache.jena.util.FileUtils;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
 import java.util.function.Consumer;
 
 
@@ -90,19 +95,24 @@ public class ABox {
         try {
             String csvFilePath = "triplets_csv_parsed.csv";
             PaperIterator paperIterator = new PaperIterator(csvFilePath);
+            int cnt = 0;
             while (paperIterator.hasNext()) {
+
                 PaperRow paperInfo = paperIterator.next();
+
+                cnt++;
+                System.out.println("Processing line " + cnt);
 
                 Individual paper;
 
                 if(paperInfo.paperType.equalsIgnoreCase("full paper")){
-                    paper = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title), fullpaperClass);
+                    paper = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title), fullpaperClass);
                 } else if (paperInfo.paperType.equalsIgnoreCase("short paper")) {
-                    paper = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title), shortpaperClass);
+                    paper = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title), shortpaperClass);
                 }else if (paperInfo.paperType.equalsIgnoreCase("demo paper")) {
-                    paper = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title), demopaperClass);
+                    paper = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title), demopaperClass);
                 }else{
-                    paper = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title), posterClass);
+                    paper = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title), posterClass);
                 }
 
                 paper.addProperty(titleProperty, paperInfo.title);
@@ -110,11 +120,11 @@ public class ABox {
 
                 int index = Math.min(Math.min(paperInfo.authors.length, paperInfo.indexKeywords.length), paperInfo.affiliations.length);
 
-                Individual area = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.authorKeywords[0]), areaClass);
+                Individual area = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.authorKeywords[0]), areaClass);
 
                 for (int i = 0; i<index; i++){
 
-                    Individual author = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.authorIds), authorClass);
+                    Individual author = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.authorIds[i]), authorClass);
 
                     author.addProperty(nameProperty, paperInfo.authors[i]);
                     author.addProperty(affiliationProperty, paperInfo.affiliations[i]);
@@ -125,17 +135,17 @@ public class ABox {
 
                 paper.addProperty(embodies, area);
 
-                Individual first_reviewer = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.reviewersIds[0]), reviewerClass);
-                Individual second_reviewer = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.reviewersIds[1]), reviewerClass);
+                Individual first_reviewer = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.reviewersIds[0]), reviewerClass);
+                Individual second_reviewer = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.reviewersIds[1]), reviewerClass);
 
                 first_reviewer.addProperty(nameProperty, paperInfo.reviewers[0]);
                 second_reviewer.addProperty(nameProperty, paperInfo.reviewers[1]);
 
-                Individual first_review = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title.concat("#review0")), reviewClass);
-                Individual second_review = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title.concat("#review1")), reviewClass);
+                Individual first_review = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title.concat("#review0")), reviewClass);
+                Individual second_review = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title.concat("#review1")), reviewClass);
 
                 String first_decision = URLEncoder.encode(paperInfo.reviewDecisions[0].replace("[","").replace("'",""));
-                String second_decision = URLEncoder.encode(paperInfo.reviewDecisions[0].replace("[","").replace("'",""));
+                String second_decision = URLEncoder.encode(paperInfo.reviewDecisions[1].replace("[","").replace("'",""));
 
                 first_review.addProperty(decisionProperty, first_decision);
                 first_review.addProperty(justificationProperty, paperInfo.reviewComments[0]);
@@ -151,16 +161,16 @@ public class ABox {
 
                 if (first_decision.equalsIgnoreCase("accepted") && second_decision.equalsIgnoreCase("accepted")){
 
-                    Individual publication = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.title.concat("#pub")), publicationClass);
+                    Individual publication = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title.concat("#pub")), publicationClass);
 
                     first_reviewer.addProperty(approves, publication);
                     second_review.addProperty(approves, publication);
 
 //                    System.out.println(paperInfo.documentType);
                     if (paperInfo.documentType.equalsIgnoreCase("journal") && !paperInfo.paperType.equalsIgnoreCase("poster")){
-                        Individual venue = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName+paperInfo.year), journalClass);
-                        Individual publicationList = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName.concat("#volume#")+paperInfo.year), journalvolClass);
-                        Individual leader = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.leader), editorClass);
+                        Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), journalClass);
+                        Individual publicationList = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName.concat("#volume#")+paperInfo.year), journalvolClass);
+                        Individual leader = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.leader), editorClass);
 
 
 //                        venue.addProperty(impfactorProperty, paperInfo.impfactor);
@@ -181,10 +191,10 @@ public class ABox {
 
                     }
                     else {
-                        Individual publicationList = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName.concat("#proceeding#")+paperInfo.year), confproceedingClass);
-                        Individual leader = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.leader), chairmanClass);
+                        Individual publicationList = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName.concat("#proceeding#")+paperInfo.year), confproceedingClass);
+                        Individual leader = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.leader), chairmanClass);
                         if (paperInfo.conferenceType.equalsIgnoreCase("regular conference")){
-                            Individual venue = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName+paperInfo.year), regularconfClass);
+                            Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), regularconfClass);
 //                            venue.addProperty(editionProperty, paperInfo.edition);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
@@ -194,7 +204,7 @@ public class ABox {
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
                         } else if (paperInfo.conferenceType.equalsIgnoreCase("expert group")) {
-                            Individual venue = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName+paperInfo.year), expertgroupClass);
+                            Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), expertgroupClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
                             paper.addProperty(submittedTo, venue);
@@ -203,7 +213,7 @@ public class ABox {
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
                         } else if (paperInfo.conferenceType.equalsIgnoreCase("symposium")) {
-                            Individual venue = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName+paperInfo.year), symposiumClass);
+                            Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), symposiumClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
                             paper.addProperty(submittedTo, venue);
@@ -212,7 +222,7 @@ public class ABox {
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
                         } else if (paperInfo.conferenceType.equalsIgnoreCase("workshop")) {
-                            Individual venue = publication_ontmodel.createIndividual(URLEncoder.encode(baseURI+paperInfo.generalConferenceName+paperInfo.year), workshopClass);
+                            Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), workshopClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
                             paper.addProperty(submittedTo, venue);
@@ -242,6 +252,7 @@ public class ABox {
             reasoner.bindSchema(publication_ontmodel);
             InfModel infModel = ModelFactory.createInfModel(reasoner, publication_ontmodel);
 
+
 //            ValidityReport vr = infModel.validate();
 //            vr.getReports().forEachRemaining(report -> {
 //                System.out.println(report);
@@ -250,6 +261,8 @@ public class ABox {
 
             if(infModel.validate().isValid()){
                 System.out.println("Perfect");
+                saveModelAsOWL(infModel, "final-infered-ontology.owl");
+
             }else{
                 System.out.println("Nope!");
             }
@@ -257,6 +270,49 @@ public class ABox {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+    }
+
+    public static void saveModelAsOWL(InfModel infModel, String outputFilePath) {
+        try {
+            OutputStream out = new FileOutputStream(outputFilePath);
+            infModel.write(out, FileUtils.langXMLAbbrev);  // langXMLAbbrev is "RDF/XML-ABBREV" which is often used for OWL
+        } catch (FileNotFoundException e) {
+            System.out.println("Error: Unable to save model to file " + outputFilePath);
+            e.printStackTrace();
+        }
+    }
+
+    public static String encodeURI(String basicURI, String ending){
+        String basicURIEncoded = URLEncoder.encode(basicURI.replaceAll("[^a-zA-Z0-9]", ""), StandardCharsets.UTF_8)
+                .replaceAll("\\+", "%20")    // Replace '+' with '%20'
+                .replaceAll("%23", "#")      // Replace '%23' with '#'
+                .replaceAll("%2F", "/")
+                .replaceAll("%3A", ":");
+        String uri = URLEncoder.encode(basicURI+ending.replaceAll("[^a-zA-Z0-9]", ""), StandardCharsets.UTF_8)
+                .replaceAll("\\+", "%20")    // Replace '+' with '%20'
+                .replaceAll("%23", "#")      // Replace '%23' with '#'
+                .replaceAll("%2F", "/")
+                .replaceAll("%3A", ":");     // Replace '%2F' with '/'
+        return uri;
+    }
+
+    public static String encodeURI(String basicURI, String[] ending){
+        String basicURIEncoded = URLEncoder.encode(basicURI.replaceAll("[^a-zA-Z0-9]", ""), StandardCharsets.UTF_8)
+                .replaceAll("\\+", "%20")    // Replace '+' with '%20'
+                .replaceAll("%23", "#")      // Replace '%23' with '#'
+                .replaceAll("%2F", "/")
+                .replaceAll("%3A", ":");
+        StringBuilder sb = new StringBuilder(basicURI);
+        for (String s : ending) {
+            String encoded = URLEncoder.encode(s.replaceAll("[^a-zA-Z0-9]", ""), StandardCharsets.UTF_8)
+                    .replaceAll("\\+", "%20")    // Replace '+' with '%20'
+                    .replaceAll("%23", "#")      // Replace '%23' with '#'
+                    .replaceAll("%2F", "/")
+                    .replaceAll("%3A", ":");
+            sb.append(encoded);
+        }
+        return sb.toString();
     }
 
 }
