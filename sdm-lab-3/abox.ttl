@@ -5,7 +5,7 @@
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
 gf:High_fidelity_MMI_excitation_patterns_for_optofluidic_multiplexing
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "High fidelity MMI excitation patterns for optofluidic multiplexing" .
 
 gf:Two-phase_flow_pressure_drop_in_superhydrophobic_channels
@@ -13,7 +13,7 @@ gf:Two-phase_flow_pressure_drop_in_superhydrophobic_channels
         gf:title  "Two-phase flow pressure drop in superhydrophobic channels" .
 
 gf:Total_hemispherical_apparent_radiative_properties_of_the_infinite_V-groove_with_specular_reflection
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Total hemispherical apparent radiative properties of the infinite V-groove with specular reflection" .
 
 gf:7202040335  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -101,11 +101,11 @@ gf:57203246058  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Kim D." .
 
 <http://www.publicationprocess.com/ontology#Low-Noise,_Low-Power_Pulse_Shaper_for_Particle_Detection_(Invited_Paper)>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Low-Noise, Low-Power Pulse Shaper for Particle Detection (Invited Paper)" .
 
 gf:Design_of_low-power_ultra-high_voltage_gain_differential_cascode_stages
-        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Design of low-power ultra-high voltage gain differential cascode stages" .
 
 gf:Retractable_anti-buckling_support_systems_for_flexible_medical_devices
@@ -145,7 +145,7 @@ gf:6508265156  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Heath Ogden T." .
 
 gf:Adaptive_control_of_large-scale_soft_robot_manipulators_with_unknown_payloads
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Adaptive control of large-scale soft robot manipulators with unknown payloads" .
 
 gf:56245452300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -169,7 +169,7 @@ gf:57207695326  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Killpack M." .
 
 gf:TrustBase:_An_architecture_to_repair_and_strengthen_certificate-based_authentication
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "TrustBase: An architecture to repair and strengthen certificate-based authentication" .
 
 gf:Improved_Track_Continuity_in_Multi_Target_Tracking_by_Fusing_Multiple_Input_Sources
@@ -302,7 +302,7 @@ gf:57205881788  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Baker M.J." .
 
 <http://www.publicationprocess.com/ontology#When_is_a_tree_really_a_truck?_Exploring_mental_models_of_encryption>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "When is a tree really a truck? Exploring mental models of encryption" .
 
 gf:Water_main_criticality_scoring_and_GIS_centric_risk_mitigation:_Applying_GIS_spatial_analysis_tools_and_apps_for_greater_insight_for_high_risk_underground_infrastructure
@@ -337,7 +337,7 @@ gf:Author  rdf:type      owl:Class ;
         rdfs:subClassOf  gf:Academic .
 
 gf:Non-dimensional_modeling_of_the_effects_of_weld_parameters_on_peak_temperature_and_cooling_rate_in_friction_stir_welding
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Non-dimensional modeling of the effects of weld parameters on peak temperature and cooling rate in friction stir welding" .
 
 gf:57190228554  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -455,7 +455,7 @@ gf:57216491948  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Hershman R." .
 
 gf:Field_testing_of_Cryogenic_Carbon_Capture
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Field testing of Cryogenic Carbon Capture" .
 
 gf:Crackle-related_beamforming_of_military_jet_aircraft_noise
@@ -551,7 +551,7 @@ gf:57193362917  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Oldroyd J." .
 
 gf:Examining_Nonlinear_Terahertz_Photonic_and_Phononic_Excitation_with_Two-Dimensional_Spectroscopy
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Examining Nonlinear Terahertz Photonic and Phononic Excitation with Two-Dimensional Spectroscopy" .
 
 gf:Characterization_and_validation_of_in_situ_void_formation_during_resin_infusion
@@ -577,7 +577,7 @@ gf:55855376400  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Nysetvold T.B." .
 
 gf:Effect_of_leader_placement_on_robotic_swarm_control
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Effect of leader placement on robotic swarm control" .
 
 gf:Femtosats:_Elegant_flight_telemetry_payloads_for_model_rockets
@@ -724,7 +724,7 @@ gf:6505524737  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Bolme C." .
 
 <http://www.publicationprocess.com/ontology#Cooperative_relative_navigation_of_multiple_aircraft_in_global_positioning_system-denied/degraded_environments>
-        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Cooperative relative navigation of multiple aircraft in global positioning system-denied/degraded environments" .
 
 gf:The_secure_socket_API:_TLS_as_an_operating_system_service
@@ -782,7 +782,7 @@ gf:57204719691  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Prawitt D.G." .
 
 gf:Modeling_effects_of_annealing_on_coal_char_reactivity_to_O2_and_CO2_based_on_preparation_conditions
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Modeling effects of annealing on coal char reactivity to O2 and CO2 based on preparation conditions" .
 
 gf:57210287166  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -829,7 +829,7 @@ gf:57214032187  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Baker W.H." .
 
 gf:Relative_navigation_of_fixed-wing_aircraft_in_GPS-denied_environments
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:DemoPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:DemoPaper ;
         gf:title  "Relative navigation of fixed-wing aircraft in GPS-denied environments" .
 
 gf:55664291100  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -934,7 +934,7 @@ gf:57194698845  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Baird S." .
 
 gf:Review_of_surface_water_interactions_with_metal_oxide_nanoparticles
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Review of surface water interactions with metal oxide nanoparticles" .
 
 gf:57201022887  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1006,7 +1006,7 @@ gf:57218097969  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Boekweg E." .
 
 gf:Over-design_versus_redesign_as_a_response_to_future_requirements
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Over-design versus redesign as a response to future requirements" .
 
 gf:57210912098  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1082,7 +1082,7 @@ gf:57200335858  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Holbrook M.D." .
 
 gf:Irregular_quadrature_amplitude_modulation_for_adaptive_physical-layer_security
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Irregular quadrature amplitude modulation for adaptive physical-layer security" .
 
 gf:57192300416  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1095,7 +1095,7 @@ gf:8517650500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Jahanshad N." .
 
 gf:Investigation_of_merging_flames_in_Horizontal_and_vertical_Geometries
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Investigation of merging flames in Horizontal and vertical Geometries" .
 
 gf:57202256915  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1105,7 +1105,7 @@ gf:55945088000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Fletcher M.E." .
 
 gf:Delivery_methods_and_social_network_analysis_of_unethical_behavior_in_the_construction_industry
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Delivery methods and social network analysis of unethical behavior in the construction industry" .
 
 gf:57209911428  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1150,7 +1150,7 @@ gf:36349287300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Killpack M.D." .
 
 <http://www.publicationprocess.com/ontology#Formability_of_magnesium_alloy_AZ31B_from_room_temperature_to_125,_¡C_under_biaxial_tension>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Formability of magnesium alloy AZ31B from room temperature to 125, ¡C under biaxial tension" .
 
 gf:Poster  rdf:type  owl:Class .
@@ -1214,7 +1214,7 @@ gf:37664688000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Ching C.R.K." .
 
 gf:Automatic_model_calibration_for_drilling_automation
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Automatic model calibration for drilling automation" .
 
 gf:57191873151  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1257,7 +1257,7 @@ gf:57203575128  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Baskota A." .
 
 gf:Implementation_of_Rolling_Contacts_for_SORCE_Joints
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Implementation of Rolling Contacts for SORCE Joints" .
 
 gf:57196275913  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1276,7 +1276,7 @@ gf:57200659857  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Richard F.R.Y." .
 
 gf:Modeling_global_and_local_codon_bias_with_deep_language_models
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Modeling global and local codon bias with deep language models" .
 
 gf:6701609778  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1299,7 +1299,7 @@ gf:57207782220  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Levin H.S." .
 
 gf:Neutron_radiation_testing_of_fault_tolerant_risc-v_soft_processor_on_xilinx_SRAM-based_FPGAs
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Neutron radiation testing of fault tolerant risc-v soft processor on xilinx SRAM-based FPGAs" .
 
 gf:Design_of_a_Clinical_Decision_Support_System_for_Predicting_Erectile_Dysfunction_in_Men_Using_NHIRD_Dataset
@@ -1426,7 +1426,7 @@ gf:57202910211  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Smith R." .
 
 gf:Lateral_Resistance_of_Abutment_Piles_Near_Mechanically_Stabilized_Earth_Walls
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Lateral Resistance of Abutment Piles Near Mechanically Stabilized Earth Walls" .
 
 gf:57203024588  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1459,7 +1459,7 @@ gf:6506645565  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Elmqvist N." .
 
 <http://www.publicationprocess.com/ontology#Action_needed!_Helping_users_find_and_complete_the_authentication_ceremony_in_signal>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Action needed! Helping users find and complete the authentication ceremony in signal" .
 
 gf:6603263001  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1485,7 +1485,7 @@ gf:7401969039  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Han H.N." .
 
 gf:CrsRecs:_A_personalized_course_recommendation_system_for_college_students
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "CrsRecs: A personalized course recommendation system for college students" .
 
 gf:56685789300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1574,11 +1574,11 @@ gf:57204469757  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Perez-Celis A." .
 
 gf:Thermally_induced_atomization_during_droplet_impingement_on_superheated_hydrophobic_and_superhydrophobic_surfaces
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Thermally induced atomization during droplet impingement on superheated hydrophobic and superhydrophobic surfaces" .
 
 gf:A_compact_low-cost_direction_finding_system_for_unmanned_aerial_vehicles
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A compact low-cost direction finding system for unmanned aerial vehicles" .
 
 gf:Improved_bottomhole_pressure_control_with_wired_drillpipe_and_physics-based_models
@@ -1622,7 +1622,7 @@ gf:Dynamic_grouping_of_cooperating_vehicles_using_a_receding_horizon_controller_
         gf:title  "Dynamic grouping of cooperating vehicles using a receding horizon controller for ground target search and track missions" .
 
 gf:Environmental_and_track_factors_that_contribute_to_abrasion_damage
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Environmental and track factors that contribute to abrasion damage" .
 
 gf:7202035366  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1648,7 +1648,7 @@ gf:7202316035  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Austin D.E." .
 
 gf:Semantic_style_creation
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Semantic style creation" .
 
 gf:57218879246  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1714,7 +1714,7 @@ gf:Patterned_carbon_nanotube_growth_on_stainless_steel
         gf:title  "Patterned carbon nanotube growth on stainless steel" .
 
 gf:Polarization-resolved_single-photon_measurements_of_nonlinear_Thomson_scattering
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Polarization-resolved single-photon measurements of nonlinear Thomson scattering" .
 
 gf:25627506700  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1761,7 +1761,7 @@ gf:6507359986  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Shamsabadi A." .
 
 gf:Deep_visual_gravity_vector_detection_for_unmanned_aircraft_attitude_estimation
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Deep visual gravity vector detection for unmanned aircraft attitude estimation" .
 
 gf:36149254500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1812,7 +1812,7 @@ gf:Three-way_spectral_decompositions_of_high-performance_military_aircraft_noise
         gf:title  "Three-way spectral decompositions of high-performance military aircraft noise" .
 
 <http://www.publicationprocess.com/ontology#Social_impact_in_product_design,_an_exploration_of_current_industry_practices>
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Social impact in product design, an exploration of current industry practices" .
 
 gf:Municipal_wastewater_treatment_by_semi-continuous_and_membrane_algal-bacterial_photo-bioreactors
@@ -1849,7 +1849,7 @@ gf:57192063650  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:title  "Exploration of three dimensional, hierarchical, large scale UAV system interactions" .
 
 gf:The_use_of_unmanned_aerial_vehicles_and_structures_from_motion_to_measure_the_volume_change_at_a_deep_dynamic_compaction_site
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "The use of unmanned aerial vehicles and structures from motion to measure the volume change at a deep dynamic compaction site" .
 
 gf:57204762755  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1877,11 +1877,11 @@ gf:13607032600  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Jesiek B.K." , " Jesiek B.K." , " Jesiek B." .
 
 <http://www.publicationprocess.com/ontology#Modeling_the_coanda_effect_with_FDS_and_STARCCM+_to_predict_the_effect_of_fires_on_slopes_for_implications_of_wildland_firefighter_safety>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Modeling the coanda effect with FDS and STARCCM+ to predict the effect of fires on slopes for implications of wildland firefighter safety" .
 
 gf:Thermal_transport_due_to_liquid_jet_impingement_on_superhydrophobic_surfaces_with_isotropic_slip:_Isoflux_wall
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Thermal transport due to liquid jet impingement on superhydrophobic surfaces with isotropic slip: Isoflux wall" .
 
 gf:57218995344  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1891,7 +1891,7 @@ gf:6507659000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Helps R.G." .
 
 gf:Effect_of_tool_geometry_and_process_parameters_on_mechanical_properties_of_friction_stir_spot_welded_dissimilar_aluminum_alloys
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Effect of tool geometry and process parameters on mechanical properties of friction stir spot welded dissimilar aluminum alloys" .
 
 gf:57205765859  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1945,7 +1945,7 @@ gf:56287595000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Perrenoud A." .
 
 gf:Volumetric_display_by_movement_of_particles_trapped_in_a_laser_via_photophoresis
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Volumetric display by movement of particles trapped in a laser via photophoresis" .
 
 gf:57205617484  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -1964,7 +1964,7 @@ gf:57193564939  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Ahn E.-Y." , " Ahn E.-Y." .
 
 gf:Impact_of_soft_errors_on_large-scale_FPGA_cloud_computing
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Impact of soft errors on large-scale FPGA cloud computing" .
 
 gf:The_fog_of_warnings:_How_non-essential_notifications_blur_with_security_warnings
@@ -2079,7 +2079,7 @@ gf:57194006378  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " El-Essawi M." .
 
 gf:Carbon_monolith_scaffolding_for_high_volumetric_capacity_silicon_Li-ion_battery_anodes
-        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Carbon monolith scaffolding for high volumetric capacity silicon Li-ion battery anodes" .
 
 <http://www.publicationprocess.com/ontology#An_assessment_of_village_drill_sustainability,_with_recommendations>
@@ -2217,7 +2217,7 @@ gf:7005883030  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Huffaker R." .
 
 <http://www.publicationprocess.com/ontology#A_Geometrically_Exact_Isogeometric_Blended_Shell:_Formulation,_Benchmarking,_and_Automotive_Application>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A Geometrically Exact Isogeometric Blended Shell: Formulation, Benchmarking, and Automotive Application" .
 
 <http://www.publicationprocess.com/ontology#Pull-out_strength_of_fiberglass/epoxy_composite_rebar_manufactured_using_a_three-dimensional_braiding_process>
@@ -2371,7 +2371,7 @@ gf:7005251917  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " McDonald-Mcginn D." .
 
 gf:A_robust_ensemble_feature_selector_based_on_rank_aggregation_for_developing_new_VO2max_prediction_models_using_support_vector_machines
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A robust ensemble feature selector based on rank aggregation for developing new VO2max prediction models using support vector machines" .
 
 gf:57205285411  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2399,7 +2399,7 @@ gf:57216748895  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Hodge D." .
 
 gf:An_ultra-high_Q_inductorless_narrowband_filter_based_on_the_voltage_divider_phase_shift_method
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "An ultra-high Q inductorless narrowband filter based on the voltage divider phase shift method" .
 
 gf:56549581200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2449,7 +2449,7 @@ gf:57203660684  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "White J.H." .
 
 gf:Guest_editorial_an_overview_of_the_seabed_characterization_experiment
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Guest editorial an overview of the seabed characterization experiment" .
 
 gf:Publication  rdf:type  owl:Class .
@@ -2503,7 +2503,7 @@ gf:57210287346  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Nickerl A." .
 
 gf:Necessary_and_Sufficient_Conditions_on_State_Transformations_That_Preserve_the_Causal_Structure_of_LTI_Dynamical_Networks
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Necessary and Sufficient Conditions on State Transformations That Preserve the Causal Structure of LTI Dynamical Networks" .
 
 gf:8390181000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2544,7 +2544,7 @@ gf:8208317300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Lin H.-H." .
 
 gf:Design_of_a_clinical_decision_support_system_for_fracture_prediction_using_imbalanced_dataset
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
         gf:title  "Design of a clinical decision support system for fracture prediction using imbalanced dataset" .
 
 gf:57195976340  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2637,7 +2637,7 @@ gf:57202047395  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Noronha D.H." .
 
 gf:A_bi-directional_interface_for_improved_interaction_with_engineering_models_in_virtual_reality_design_reviews
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A bi-directional interface for improved interaction with engineering models in virtual reality design reviews" .
 
 gf:Visual_servoing_for_multirotor_precision_landing_in_daylight_and_after-dark_conditions
@@ -2684,11 +2684,11 @@ gf:Toward_quantitative_characterization_of_essential_tremor_for_future_tremor_su
         gf:title  "Toward quantitative characterization of essential tremor for future tremor suppression" .
 
 gf:Fabrication_and_testing_of_a_MEMS_system_for_injection_of_DNA_into_plant_cells
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Fabrication and testing of a MEMS system for injection of DNA into plant cells" .
 
 gf:Influence_of_Communication_Irregularities_and_Co-simulation_on_Hybrid_Power_System_State_Estimation
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Influence of Communication Irregularities and Co-simulation on Hybrid Power System State Estimation" .
 
 gf:57203234366  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2745,7 +2745,7 @@ gf:7006799143  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Wilton S.J.E." .
 
 gf:Multimodal_multiplexing_of_single-virus_detection_using_multi-mode_interference_waveguides
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Multimodal multiplexing of single-virus detection using multi-mode interference waveguides" .
 
 gf:25930868900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2761,11 +2761,11 @@ gf:57203219105  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Vogel S.C." .
 
 gf:Optical_measurement_of_voids_in_situ_during_infusion_of_carbon_reinforcements
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Optical measurement of voids in situ during infusion of carbon reinforcements" .
 
 gf:A_modeling_framework_for_assessing_cyber_disruptions_and_attacks_to_the_national_airspace_system
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A modeling framework for assessing cyber disruptions and attacks to the national airspace system" .
 
 gf:7003445799  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2797,7 +2797,7 @@ gf:56012868500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:title  "Analysis of perceived social impacts of existing products designed for the developing world, with implications for new product development" .
 
 gf:Assessment_of_engineering_gas_radiative_property_models_in_high_pressure_turbulent_jet_diffusion_flames
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Assessment of engineering gas radiative property models in high pressure turbulent jet diffusion flames" .
 
 gf:Full-scale_3D-modelling_of_the_radiative_heat_transfer_in_rotary_kilns_with_a_present_bed_material
@@ -2824,7 +2824,7 @@ gf:57195340095  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Mishra R.K." .
 
 gf:Moderating_operator_influence_in_human-swarm_systems
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Moderating operator influence in human-swarm systems" .
 
 gf:35873737200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2901,14 +2901,14 @@ gf:Visual_servoing_with_feed-forward_for_precision_shipboard_landing_of_an_auton
         gf:title  "Visual servoing with feed-forward for precision shipboard landing of an autonomous multirotor" .
 
 gf:Kcollections:_A_fast_and_efficient_library_for_K-mers
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Kcollections: A fast and efficient library for K-mers" .
 
 gf:57192643299  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Safdari M.-S." , " Safdari M.-S." .
 
 gf:Origami-Based_Design_of_Conceal-and-Reveal_Systems
-        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Origami-Based Design of Conceal-and-Reveal Systems" .
 
 gf:6603579157  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -2950,7 +2950,7 @@ gf:56830076500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Salmon J.L." , " Salmon J." , " Salmon J.L." .
 
 gf:Investigation_of_merging_flames_in_horizontal_and_vertical_geometries
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Investigation of merging flames in horizontal and vertical geometries" .
 
 gf:ENIGMA_military_brain_injury:_A_coordinated_meta-analysis_of_diffusion_MRI_from_multiple_cohorts
@@ -2958,7 +2958,7 @@ gf:ENIGMA_military_brain_injury:_A_coordinated_meta-analysis_of_diffusion_MRI_fr
         gf:title  "ENIGMA military brain injury: A coordinated meta-analysis of diffusion MRI from multiple cohorts" .
 
 gf:Comprehensive_and_quality-controlled_bedload_transport_database
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Comprehensive and quality-controlled bedload transport database" .
 
 gf:35368447500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3029,7 +3029,7 @@ gf:7005521036  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Roman H.R." .
 
 gf:Polarization_diversity_and_equalization_of_frequency_selective_channels_in_telemetry_environment_for_16APSK
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Polarization diversity and equalization of frequency selective channels in telemetry environment for 16APSK" .
 
 gf:57200641848  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3046,7 +3046,7 @@ gf:24337245000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Arashida Y." .
 
 gf:Using_non-destructive_testing_to_predict_bending_modulus_of_carbon_infiltrated-carbon_nanotubes
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Using non-destructive testing to predict bending modulus of carbon infiltrated-carbon nanotubes" .
 
 gf:55457444300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3056,7 +3056,7 @@ gf:57212271159  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Stapleton T." .
 
 gf:Symmetric_Equations_for_Evaluating_Maximum_Torsion_Stress_of_Rectangular_Beams_in_Compliant_Mechanisms
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Symmetric Equations for Evaluating Maximum Torsion Stress of Rectangular Beams in Compliant Mechanisms" .
 
 gf:37113017300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3069,7 +3069,7 @@ gf:57215534774  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Brewer E." .
 
 gf:Universal_airfoil_parametrization_using_B-splines
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Universal airfoil parametrization using B-splines" .
 
 gf:Relative_visual-inertial_odometry_for_fixed-wing_aircraft_in_GPS-denied_environments
@@ -3228,7 +3228,7 @@ gf:36713489900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Jenkins J.L." .
 
 gf:Spectral_and_Dynamic_Consequences_of_Network_Specialization
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Spectral and Dynamic Consequences of Network Specialization" .
 
 gf:55354928800  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3264,11 +3264,11 @@ gf:39062086200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Salva K.T." .
 
 gf:Selective_Laser_Melting_aluminum_waveguide_attenuation_at_K-band
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Selective Laser Melting aluminum waveguide attenuation at K-band" .
 
 gf:A_comparative_usability_study_of_key_management_in_secure_email
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A comparative usability study of key management in secure email" .
 
 gf:57216287324  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3317,7 +3317,7 @@ gf:57202642302  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Shutt T." .
 
 gf:Machine_learning_for_evaluating_the_social_impact_of_engineered_products:_A_framework
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Machine learning for evaluating the social impact of engineered products: A framework" .
 
 gf:Analysis_of_pyrolysis_products_from_live_shrub_fuels
@@ -3332,7 +3332,7 @@ gf:Characterization_of_supersonic_laboratory-scale_jet_noise_with_vector_acousti
         gf:title  "Characterization of supersonic laboratory-scale jet noise with vector acoustic intensity" .
 
 gf:Direct_macro-to-micro_interface_method_for_microfluidics
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Direct macro-to-micro interface method for microfluidics" .
 
 gf:Rapid_visualization_of_compressor_blade_finite_element_models_using_surrogate_modeling
@@ -3355,21 +3355,21 @@ gf:7006650428  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Nixon C.A." .
 
 gf:Predicting_efficiency_of_a_turbine_driven_by_pulsing_flow
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Predicting efficiency of a turbine driven by pulsing flow" .
 
 gf:7004904337  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Crandall J.W." , " Crandall J.W." .
 
 <http://www.publicationprocess.com/ontology#Move_the_Laser_Spot,_Not_the_DUT:_Investigating_the_New_Micro-mirror_Capability_and_Challenges_for_Localizing_SEE_Sites_on_Large_Modern_ICs>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Move the Laser Spot, Not the DUT: Investigating the New Micro-mirror Capability and Challenges for Localizing SEE Sites on Large Modern ICs" .
 
 gf:7801636116  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Menand S." .
 
 gf:Semi-empirical_model_for_fire_spread_in_chamise_and_big_sagebrush_shrubs_with_spatially-defined_fuel_elements_and_flames
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Semi-empirical model for fire spread in chamise and big sagebrush shrubs with spatially-defined fuel elements and flames" .
 
 gf:56404157200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3403,7 +3403,7 @@ gf:57205025235  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Brown O." .
 
 <http://www.publicationprocess.com/ontology#Dynamic_Networks:_Representations,_Abstractions,_and_Well-Posedness>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Dynamic Networks: Representations, Abstractions, and Well-Posedness" .
 
 gf:Collaboration_task-technology_fit_for_student_distributed_engineering_design_teams
@@ -3475,7 +3475,7 @@ gf:57192908187  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Ravert J." .
 
 gf:A_graph-theoretic_understanding_of_network-wide_implications_of_local_cyber_protections_for_mission_assurance
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A graph-theoretic understanding of network-wide implications of local cyber protections for mission assurance" .
 
 gf:57202120923  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3568,14 +3568,14 @@ gf:56560118600  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Ayoubi P." .
 
 gf:Probabilistic_Network_Observability_of_a_Hybrid_Power_System_with_Communication_Irregularities
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Probabilistic Network Observability of a Hybrid Power System with Communication Irregularities" .
 
 gf:57210919648  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Jain P." .
 
 gf:Process_responses_and_resultant_joint_properties_of_friction_stir_welding_of_dissimilar_5083_and_6061aluminum_alloys
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Process responses and resultant joint properties of friction stir welding of dissimilar 5083 and 6061aluminum alloys" .
 
 gf:57207980336  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3649,7 +3649,7 @@ gf:Effect_of_nozzleÐplate_distance_on_acoustic_phenomena_from_supersonic_imping
         gf:title  "Effect of nozzleÐplate distance on acoustic phenomena from supersonic impinging jet" .
 
 <http://www.publicationprocess.com/ontology#Using_a_Deep_Learning_Model,_Content_Features,_and_Author_Metadata_to_Recommend_Research_Papers>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Using a Deep Learning Model, Content Features, and Author Metadata to Recommend Research Papers" .
 
 gf:56542307500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3839,7 +3839,7 @@ gf:57196471974  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Thomas S.M." .
 
 gf:Structural_design_space_exploration_using_principal_component_analysis
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Structural design space exploration using principal component analysis" .
 
 gf:57192430052  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3855,7 +3855,7 @@ gf:6701550039  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Knobles D.P." .
 
 gf:Sparse_MMSE_equalizer_for_GTR-STBC_in_aeronautical_telemetry
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Sparse MMSE equalizer for GTR-STBC in aeronautical telemetry" .
 
 gf:7801515665  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3901,7 +3901,7 @@ gf:6602657620  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Capotondi F." .
 
 gf:Reservoir_sustainability_and_sediment_management
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
         gf:title  "Reservoir sustainability and sediment management" .
 
 gf:56685601500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3920,7 +3920,7 @@ gf:56218368600  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Akamine M." , " Akamine M." .
 
 gf:Adaptive_Physical-Layer_Security_Through_Punctured_Coding_for_Secrecy
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Adaptive Physical-Layer Security Through Punctured Coding for Secrecy" .
 
 gf:55632390400  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3944,7 +3944,7 @@ gf:57189445479  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Sanchez D." .
 
 gf:Cooperation_induction_in_two_player_bertand_markets_with_linear_demand
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Cooperation induction in two player bertand markets with linear demand" .
 
 gf:57111140800  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3954,7 +3954,7 @@ gf:6602928070  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Pears A.N." .
 
 gf:Analysis_of_inertial_measurement_data_from_a_model_rocket_payload
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Analysis of inertial measurement data from a model rocket payload" .
 
 gf:36913263000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -3986,7 +3986,7 @@ gf:6602649851  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Gorrell S." , " Gorrell S.E." .
 
 gf:Profile-based_team_organization_in_multi-university_capstone_engineering_design_teams
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Profile-based team organization in multi-university capstone engineering design teams" .
 
 gf:55832864500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4032,7 +4032,7 @@ gf:Bubble_nucleation_in_superhydrophobic_microchannels_due_to_subcritical_heatin
         gf:title  "Bubble nucleation in superhydrophobic microchannels due to subcritical heating" .
 
 gf:Mitigated_FPGA_design_of_multi-gigabit_transceivers_for_application_in_high_radiation_environments_of_High_Energy_Physics_experiments
-        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Mitigated FPGA design of multi-gigabit transceivers for application in high radiation environments of High Energy Physics experiments" .
 
 <http://www.publicationprocess.com/ontology#The_need,_development,_and_validation_of_the_innovation_test_instrument>
@@ -4106,7 +4106,7 @@ gf:57203030537  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Wheeler D.R." .
 
 gf:Experiential_learning:_Using_small-scale_projects_to_teach_project_complexities_and_relationship_roles_in_construction
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Experiential learning: Using small-scale projects to teach project complexities and relationship roles in construction" .
 
 gf:57208710317  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4119,7 +4119,7 @@ gf:57211502145  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Gabriel Richardson J." .
 
 gf:Feedback_regulation_of_immune_response_to_maximum_exercise_in_Gulf_war_illness
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Feedback regulation of immune response to maximum exercise in Gulf war illness" .
 
 gf:56215007300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4178,7 +4178,7 @@ gf:Dynamics_of_a_capsule_flowing_in_a_tube_under_pulsatile_flow
         gf:title  "Dynamics of a capsule flowing in a tube under pulsatile flow" .
 
 gf:Comparing_model-based_control_methods_for_simultaneous_stiffness_and_position_control_of_inflatable_soft_robots
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
         gf:title  "Comparing model-based control methods for simultaneous stiffness and position control of inflatable soft robots" .
 
 gf:edition  rdf:type  owl:DatatypeProperty ;
@@ -4224,7 +4224,7 @@ gf:57210292389  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Norman K." , " Norman K." .
 
 gf:Over-Design_Versus_Redesign_as_a_Response_to_Future_Requirements
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Over-Design Versus Redesign as a Response to Future Requirements" .
 
 gf:57200363612  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4270,7 +4270,7 @@ gf:57197749025  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " McAlpin J.T." .
 
 <http://www.publicationprocess.com/ontology#Intensive_mentoring_and_micro-electronics_research_for_students_in_engineering_(IMMERSE)>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Intensive mentoring and micro-electronics research for students in engineering (IMMERSE)" .
 
 gf:57203980107  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4292,7 +4292,7 @@ gf:Latanoprost_uptake_and_release_from_commercial_contact_lenses
         gf:title  "Latanoprost uptake and release from commercial contact lenses" .
 
 gf:Kinematics_and_discretization_of_curved-fold_mechanisms
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Kinematics and discretization of curved-fold mechanisms" .
 
 gf:57201864184  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4302,7 +4302,7 @@ gf:24336460200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Schmidt H." .
 
 gf:On_peak-to-average_power_ratio_optimization_for_coded_APSK
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "On peak-to-average power ratio optimization for coded APSK" .
 
 gf:56740595400  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4360,7 +4360,7 @@ gf:6701876192  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Woolsey C.A." .
 
 gf:Cooperating_in_long-term_relationships_with_time-varying_structure
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Cooperating in long-term relationships with time-varying structure" .
 
 gf:34868168700  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4377,7 +4377,7 @@ gf:9745660700  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Ruparel K." .
 
 gf:Scalable_fabric_tactile_sensor_arrays_for_soft_bodies
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Scalable fabric tactile sensor arrays for soft bodies" .
 
 gf:34874038200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4464,7 +4464,7 @@ gf:57200204063  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Hopkins E." .
 
 gf:Cfo_estimation_by_exploiting_channel_sparsity_in_aeronautical_telemetry
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Cfo estimation by exploiting channel sparsity in aeronautical telemetry" .
 
 gf:13405030000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4495,11 +4495,11 @@ gf:7004507225  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Lemonnier D." .
 
 gf:Thick_rigidly_foldable_origami_mechanisms_based_on_synchronized_offset_rolling_contact_elements
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Thick rigidly foldable origami mechanisms based on synchronized offset rolling contact elements" .
 
 <http://www.publicationprocess.com/ontology#Fabrication_of_demineralized_bone_matrix/polycaprolactone_composites_using_large_area_projection_sintering_(LAPS)>
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
         gf:title  "Fabrication of demineralized bone matrix/polycaprolactone composites using large area projection sintering (LAPS)" .
 
 gf:Multi-timescale_pump-probe_spectroscopy_using_time-encoding_and_time-stretching_methods
@@ -4517,7 +4517,7 @@ gf:15521557600  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Memmott M.J." .
 
 <http://www.publicationprocess.com/ontology#Estimated_Time_of_Restoration_(ETR)_Guidance_for_Electric_Distribution_Networks>
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Estimated Time of Restoration (ETR) Guidance for Electric Distribution Networks" .
 
 gf:55849943100  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4551,7 +4551,7 @@ gf:Comparison_of_calibrated_empirical_and_semi-empirical_methods_for_bedload_tra
         gf:title  "Comparison of calibrated empirical and semi-empirical methods for bedload transport rate prediction in gravel bed streams" .
 
 gf:Simplified_modeling_for_soot_formation_from_solid_fuels
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Simplified modeling for soot formation from solid fuels" .
 
 gf:7003302831  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4644,7 +4644,7 @@ gf:57202088821  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Machanzi T." , " Machanzi T." .
 
 <http://www.publicationprocess.com/ontology#A_review_of_friction_stir_welding_of_steels:_Tool,_material_flow,_microstructure,_and_properties>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A review of friction stir welding of steels: Tool, material flow, microstructure, and properties" .
 
 gf:57202738247  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4721,7 +4721,7 @@ gf:Investigating_Strategies_for_Pre-Class_Content_Learning_in_a_Flipped_Classroo
         gf:title  "Investigating Strategies for Pre-Class Content Learning in a Flipped Classroom" .
 
 gf:Local_texture_evolution_and_mechanical_performance_of_ultra-high-speed_friction_stir_weld_of_AA_6111-T4_sheets
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Local texture evolution and mechanical performance of ultra-high-speed friction stir weld of AA 6111-T4 sheets" .
 
 gf:57203330644  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4731,7 +4731,7 @@ gf:57203978933  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Sargent B." , "Sargent B.S." .
 
 gf:Continuous_permeability_measurement_during_unidirectional_vacuum_infusion_processing
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Continuous permeability measurement during unidirectional vacuum infusion processing" .
 
 gf:Movie_recommendations_using_the_deep_learning_approach
@@ -4777,14 +4777,14 @@ gf:56397285100  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Jiang Y." .
 
 gf:Enhanced_Detection_of_Single_Viruses_On-Chip_via_Hydrodynamic_Focusing
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Enhanced Detection of Single Viruses On-Chip via Hydrodynamic Focusing" .
 
 gf:57211105311  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Andersson K." .
 
 <http://www.publicationprocess.com/ontology#Neutron_Radiation_Beam_Results_for_the_Xilinx_UltraScale+_MPSoC>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Neutron Radiation Beam Results for the Xilinx UltraScale+ MPSoC" .
 
 gf:57212833949  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4850,7 +4850,7 @@ gf:57193706327  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Larsen J.L." .
 
 gf:Analysis_of_distortion_phase_shift_in_a_highly_loaded_fan_stage
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Analysis of distortion phase shift in a highly loaded fan stage" .
 
 gf:35175200200  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4873,7 +4873,7 @@ gf:56164575400  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Takahashi K.Z." .
 
 gf:Bad_news_first:_How_optimal_directness_depends_on_what_is_negated
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Bad news first: How optimal directness depends on what is negated" .
 
 gf:Expanding_the_far_UV_range_of_aluminum-coated_mirrors_for_space-based_observations_to_reflect_hydrogen_Lyman_lines_via_fluoride_multilayers
@@ -4981,7 +4981,7 @@ gf:24330327900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Vance A." .
 
 gf:Proving_data_race_freedom_in_task_parallel_programs_using_a_weaker_partial_order
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Proving data race freedom in task parallel programs using a weaker partial order" .
 
 gf:8602381900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -4994,7 +4994,7 @@ gf:24081319400  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Platt B.C." .
 
 gf:Microfluidic_temperature_behavior_in_a_multi-material_3D_printed_chip
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Microfluidic temperature behavior in a multi-material 3D printed chip" .
 
 gf:55806548500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5073,7 +5073,7 @@ gf:Progress_in_transparent_flat-panel_holographic_displays_enabled_by_guided-wav
         gf:title  "Progress in transparent flat-panel holographic displays enabled by guided-wave acousto-optics" .
 
 gf:A_Class_of_Logistic_Functions_for_Approximating_State-Inclusive_Koopman_Operators
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A Class of Logistic Functions for Approximating State-Inclusive Koopman Operators" .
 
 gf:23012861700  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5097,7 +5097,7 @@ gf:55557218000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Abut F." , " Abut F." .
 
 gf:Using_tripartite_graphs_to_make_long_tail_recommendations
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Using tripartite graphs to make long tail recommendations" .
 
 gf:57193927413  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5116,7 +5116,7 @@ gf:Contributions_of_Tip_Leakage_and_Inlet_Diffusion_on_Inducer_Backflow
         gf:title  "Contributions of Tip Leakage and Inlet Diffusion on Inducer Backflow" .
 
 gf:Preserving_optical_confinement_in_unannealed_PECVD_SiO2_waveguides
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Preserving optical confinement in unannealed PECVD SiO2 waveguides" .
 
 gf:Integrating_community-level_data_resources_for_precision_medicine_research
@@ -5182,7 +5182,7 @@ gf:57207334294  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Adams D." .
 
 gf:Experimental_characterization_of_leaky-mode_spatial_light_modulators_fabricated_via_direct_laser_writing
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Experimental characterization of leaky-mode spatial light modulators fabricated via direct laser writing" .
 
 gf:57202040530  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5208,7 +5208,7 @@ gf:57207687041  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
 gf:Review  rdf:type  owl:Class .
 
 gf:Evaluation_of_stochastic_particle_dispersion_modeling_in_turbulent_round_jets
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Evaluation of stochastic particle dispersion modeling in turbulent round jets" .
 
 <http://www.publicationprocess.com/ontology#When_does_a_human_replan?_Exploring_intent-based_replanning_in_multi-objective_path_planning>
@@ -5225,7 +5225,7 @@ gf:7202842875  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Shao L." .
 
 gf:Lab-scale_observations_of_flame_attachment_on_slopes_with_implications_for_firefighter_safety_zones
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Lab-scale observations of flame attachment on slopes with implications for firefighter safety zones" .
 
 gf:7003793778  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5239,11 +5239,11 @@ gf:8048702500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Mohamad G." .
 
 gf:Regional_Stiffness_Reduction_Using_Lamina_Emergent_Torsional_Joints_for_Flexible_Printed_Circuit_Board_Design
-        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:FullPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Regional Stiffness Reduction Using Lamina Emergent Torsional Joints for Flexible Printed Circuit Board Design" .
 
 gf:A_Rateless_Approach_to_Physical-Layer_Security
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A Rateless Approach to Physical-Layer Security" .
 
 gf:57209399454  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5272,7 +5272,7 @@ gf:Measuring_User_Perceptions_of_Popular_Transportation_Project_Delivery_Methods
         gf:title  "Measuring User Perceptions of Popular Transportation Project Delivery Methods Using Least Significant Difference Intervals and Multiple Range Tests" .
 
 gf:Preliminary_investigation_of_multilobe_fighter_jet_noise_sources_using_acoustical_holography
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Preliminary investigation of multilobe fighter jet noise sources using acoustical holography" .
 
 gf:Doppler_power_spectra_from_vehicle-to-everything_propagation_experiments
@@ -5307,7 +5307,7 @@ gf:24402340500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Ventura D." .
 
 gf:Nanoantibiotics_containing_membrane-active_human_cathelicidin_LL-37_or_synthetic_ceragenins_attached_to_the_surface_of_magnetic_nanoparticles_as_novel_and_innovative_therapeutic_tools:_Current_status_and_potential_future_applications
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Nanoantibiotics containing membrane-active human cathelicidin LL-37 or synthetic ceragenins attached to the surface of magnetic nanoparticles as novel and innovative therapeutic tools: Current status and potential future applications" .
 
 gf:Total_hemispherical_apparent_radiative_properties_of_the_infinite_V-Groove_with_diffuse_reflection
@@ -5365,7 +5365,7 @@ gf:7103286989  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Tate D.F." .
 
 gf:A_comparison_of_model_predictive_control_and_PID_temperature_control_in_friction_stir_welding
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A comparison of model predictive control and PID temperature control in friction stir welding" .
 
 gf:57212343330  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5397,7 +5397,7 @@ gf:56020026900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Clark M.R." .
 
 gf:FleCSPH:_A_parallel_and_distributed_smoothed_particle_hydrodynamics_framework_based_on_FleCSI
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "FleCSPH: A parallel and distributed smoothed particle hydrodynamics framework based on FleCSI" .
 
 gf:47461179000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5411,7 +5411,7 @@ gf:justification  rdf:type  owl:DatatypeProperty ;
         rdfs:range   xsd:string .
 
 gf:Error_correction_in_structured_optical_receivers
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Error correction in structured optical receivers" .
 
 gf:57191031931  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5433,7 +5433,7 @@ gf:7006533953  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Halverson D.M." .
 
 gf:Inverted_L-arm_gripper_compliant_mechanism
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Inverted L-arm gripper compliant mechanism" .
 
 gf:7403218372  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5450,7 +5450,7 @@ gf:19934211900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Monaco P." .
 
 <http://www.publicationprocess.com/ontology#Lowman's_model_goes_back_to_the_movies>
-        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:ShortPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Lowman's model goes back to the movies" .
 
 gf:57200699937  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5466,7 +5466,7 @@ gf:57209394752  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Howard D." .
 
 <http://www.publicationprocess.com/ontology#Multi-objective_design_optimization_of_a_soft,_pneumatic_robot>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Multi-objective design optimization of a soft, pneumatic robot" .
 
 gf:On-chip_FPGA_debug_instrumentation_for_machine_learning_applications
@@ -5491,7 +5491,7 @@ gf:55628341300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Nir T." .
 
 gf:Single-Shot_Measurement_of_Extreme_Ultraviolet_Free_Electron_Laser_Pulses
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Single-Shot Measurement of Extreme Ultraviolet Free Electron Laser Pulses" .
 
 gf:23093686000  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5597,7 +5597,7 @@ gf:The_scaled_SLW_model_of_gas_radiation_in_non-uniform_media
         gf:title  "The scaled SLW model of gas radiation in non-uniform media" .
 
 gf:Relative_target_estimation_using_a_cascade_of_extended_Kalman_filters
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Relative target estimation using a cascade of extended Kalman filters" .
 
 gf:Impact_of_pulse_length_on_the_accuracy_of_defect_depth_measurements_in_pulse_thermography
@@ -5608,7 +5608,7 @@ gf:6601976036  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Adidharma H." .
 
 gf:Probabilistic_extension_of_flexible_hybrid_state_estimation_for_cyber-physical_systems
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Probabilistic extension of flexible hybrid state estimation for cyber-physical systems" .
 
 gf:7005241866  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5622,7 +5622,7 @@ gf:6507317548  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:title  "Factor analysis in automated face detection: Gender, occlusion, eyewear, brightness, contrast, and focus measure" .
 
 gf:A_summary_of_data-aided_equalizer_experiments_at_edwards_AFB
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A summary of data-aided equalizer experiments at edwards AFB" .
 
 gf:57194231165  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5632,7 +5632,7 @@ gf:57203308821  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Hueros R.A.R." .
 
 gf:Large-scale_multidisciplinary_optimization_of_an_electric_aircraft_for_on-demand_mobility
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Large-scale multidisciplinary optimization of an electric aircraft for on-demand mobility" .
 
 gf:35316779800  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5690,7 +5690,7 @@ gf:57031187500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Gong H." .
 
 <http://www.publicationprocess.com/ontology#Adapting_standard_external_clustering_metrics_for_repetitive,_noisy_observations>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Adapting standard external clustering metrics for repetitive, noisy observations" .
 
 gf:35213554500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5733,7 +5733,7 @@ gf:Postprocessing_the_outputs_of_an_interacting_multiple-model_Kalman_filter_usi
         gf:title  "Mexico City Basin Effects: Past, Present, and Future" .
 
 <http://www.publicationprocess.com/ontology#Heat_transfer,_efficiency_and_turn-down_ratio_of_a_dynamic_radiative_heat_exchanger>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Heat transfer, efficiency and turn-down ratio of a dynamic radiative heat exchanger" .
 
 gf:Solar_system_science_with_the_Wide-Field_Infrared_Survey_Telescope
@@ -5741,7 +5741,7 @@ gf:Solar_system_science_with_the_Wide-Field_Infrared_Survey_Telescope
         gf:title  "Solar system science with the Wide-Field Infrared Survey Telescope" .
 
 gf:Simulating_stall_inception_in_a_high-performance_fan_using_createt_m-av_kestrel
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Simulating stall inception in a high-performance fan using createt m-av kestrel" .
 
 gf:7003631423  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5768,7 +5768,7 @@ gf:56328064900  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Putney L." .
 
 gf:Toward_a_Universal_Social_Impact_Metric_for_Engineered_Products_That_Alleviate_Poverty
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Toward a Universal Social Impact Metric for Engineered Products That Alleviate Poverty" .
 
 gf:56968013300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5802,7 +5802,7 @@ gf:10540655600  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Frankman D." .
 
 gf:Membrane-Enhanced_Lamina_Emergent_Torsional_Joints_for_Surrogate_Folds
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:ShortPaper ;
         gf:title  "Membrane-Enhanced Lamina Emergent Torsional Joints for Surrogate Folds" .
 
 gf:57203221999  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5844,14 +5844,14 @@ gf:57204896057  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Cardall H." .
 
 gf:A_graduate_school_recommendation_system_using_the_multi-class_support_vector_machine_and_KNN_approaches
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "A graduate school recommendation system using the multi-class support vector machine and KNN approaches" .
 
 gf:23003275100  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Chen J.Y.C." .
 
 gf:Controlling_martensite_and_pearlite_formation_with_cooling_rate_and_temperature_control_in_rotary_friction_welding
-        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Controlling martensite and pearlite formation with cooling rate and temperature control in rotary friction welding" .
 
 gf:Transparency:_Transitioning_From_HumanÐMachine_Systems_to_Human-Swarm_Systems
@@ -5891,7 +5891,7 @@ gf:State-Dependent_LQR_Control_for_a_Tilt-Rotor_UAV
         gf:title  "State-Dependent LQR Control for a Tilt-Rotor UAV" .
 
 gf:Physical-layer_security_for_aeronautical_telemetry
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Physical-layer security for aeronautical telemetry" .
 
 gf:57201484423  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5930,7 +5930,7 @@ gf:Demonstration_of_interference_pattern_structured_illumination_imaging
         gf:title  "Demonstration of interference pattern structured illumination imaging" .
 
 gf:The_effect_of_communication_and_vehicle_properties_on_the_search_performance_of_a_swarm_of_unmanned_aerial_vehicles
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "The effect of communication and vehicle properties on the search performance of a swarm of unmanned aerial vehicles" .
 
 gf:57207687563  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -5954,7 +5954,7 @@ gf:6507586174  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Roalf D." .
 
 gf:Adhesion_testing_of_printed_inks_while_varying_the_surface_treatment_of_polymer_substrates
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Adhesion testing of printed inks while varying the surface treatment of polymer substrates" .
 
 gf:42261332500  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6030,7 +6030,7 @@ gf:7101816438  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Manning A." .
 
 gf:SAE_Aero_Design_East:_BYU-Idaho_Aero_Team_326_-_Final_Report_Document
-        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  gf:DemoPaper , <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "SAE Aero Design East: BYU-Idaho Aero Team 326 - Final Report Document" .
 
 gf:Pyrolysis_of_live_vegetation_at_slow_heating_rates
@@ -6049,7 +6049,7 @@ gf:User_attitudes_toward_the_inspection_of_encrypted_traffic
         gf:title  "User attitudes toward the inspection of encrypted traffic" .
 
 gf:On_the_well-posedness_of_LTI_networks
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "On the well-posedness of LTI networks" .
 
 gf:57218883472  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6102,7 +6102,7 @@ gf:57203980122  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Frandsen D." .
 
 gf:Simulations_in_Construction_and_Engineering_Management_Education_to_Explore_Professional_Challenges
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Simulations in Construction and Engineering Management Education to Explore Professional Challenges" .
 
 gf:57208584595  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6116,7 +6116,7 @@ gf:describes  rdf:type  owl:ObjectProperty ;
         rdfs:range   gf:Publication .
 
 gf:Modeling_pressurized_dense_phase_coal_fluidization_and_transport
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Modeling pressurized dense phase coal fluidization and transport" .
 
 gf:57193610705  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6236,7 +6236,7 @@ gf:57203179434  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Yuksel M.C." .
 
 gf:Increasing_Inducer_Stability_and_Suction_Performance_With_a_Stability_Control_Device
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Increasing Inducer Stability and Suction Performance With a Stability Control Device" .
 
 gf:57200515115  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6318,7 +6318,7 @@ gf:6701755273  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Lunt B.M." , " Lunt B.M." .
 
 gf:Moment_method_analysis_of_a_reconfigurable_OTA_reverberation_chamber
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Moment method analysis of a reconfigurable OTA reverberation chamber" .
 
 gf:57212151348  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6339,7 +6339,7 @@ gf:Accuracy_of_engineering_methods_for_radiative_transfer_in_CO2-H2O_mixtures_at
         gf:title  "Accuracy of engineering methods for radiative transfer in CO2-H2O mixtures at high temperature" .
 
 gf:Distributed_electric_propulsion_effects_on_traditional_aircraft_through_multidisciplinary_optimization
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Distributed electric propulsion effects on traditional aircraft through multidisciplinary optimization" .
 
 gf:57212342916  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6358,7 +6358,7 @@ gf:57210477807  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Fletcher M." .
 
 gf:Identifying_Team_Selection_and_Alignment_Factors_by_Delivery_Method_for_Transportation_Projects
-        rdf:type  gf:Paper , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
+        rdf:type  gf:Poster , <http://xmlns.com/foaf/0.1/Document> , gf:FullPaper ;
         gf:title  "Identifying Team Selection and Alignment Factors by Delivery Method for Transportation Projects" .
 
 gf:Relative_multiplicative_extended_Kalman_filter_for_observable_GPS-denied_navigation
@@ -6366,7 +6366,7 @@ gf:Relative_multiplicative_extended_Kalman_filter_for_observable_GPS-denied_navi
         gf:title  "Relative multiplicative extended Kalman filter for observable GPS-denied navigation" .
 
 <http://www.publicationprocess.com/ontology#Simplified_Evaluation_of_the_Seismic_Failure_of_an_Old_Wharf_during_the_2014_Mw_8.2_Pisagua,_Chile,_Earthquake>
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Simplified Evaluation of the Seismic Failure of an Old Wharf during the 2014 Mw 8.2 Pisagua, Chile, Earthquake" .
 
 gf:57203240784  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
@@ -6419,7 +6419,7 @@ gf:57193867023  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  " Arshad S." .
 
 gf:Ash_deposition_during_advanced_oxy-coal_combustion_using_minimum_recycled_flue_gas
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Ash deposition during advanced oxy-coal combustion using minimum recycled flue gas" .
 
 gf:A_methodology_for_analyzing_intersection_safety
@@ -6452,7 +6452,7 @@ gf:56584019300  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;
         gf:person-name  "Mulford R.B." , " Mulford R.B." .
 
 gf:Sustainable_water_filters_in_southern_Peru
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Sustainable water filters in southern Peru" .
 
 gf:Multidisciplinary_design_optimization_of_flexible_solar-regenerative_high-altitude_long-endurance_aircraft
@@ -6487,7 +6487,7 @@ gf:In_situ_bubble_characterization_during_resin_infusion_for_process_simulation_
         gf:title  "In situ bubble characterization during resin infusion for process simulation of voids" .
 
 gf:Development_and_testing_of_an_innovative_architectural_programming_simulation_as_a_precursor_to_target_value_design
-        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Paper ;
+        rdf:type  <http://xmlns.com/foaf/0.1/Document> , gf:Poster ;
         gf:title  "Development and testing of an innovative architectural programming simulation as a precursor to target value design" .
 
 gf:57208702517  rdf:type  <http://xmlns.com/foaf/0.1/Person> , gf:Author ;

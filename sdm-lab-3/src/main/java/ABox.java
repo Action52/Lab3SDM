@@ -106,8 +106,13 @@ public class ABox {
                     else if(paperRow.paperType.contains("Full Paper")){
                         pC = fullpaperClass;
                     }
-                    createTitles(publication_ontmodel, paperRow, pC, titleProperty);
 
+                    if(paperRow.paperType.contains("Poster")){
+                        createPoster(publication_ontmodel, paperRow, posterClass, titleProperty);
+                    }
+                    else{
+                        createTitle(publication_ontmodel, paperRow, pC, titleProperty);
+                    }
                 } catch (Exception ex){
                     continue;
                 }
@@ -128,10 +133,16 @@ public class ABox {
         }
     }
 
-    public static void createTitles(Model model, PaperRow paperRow, OntClass paperClass, DatatypeProperty titleProperty){
+    public static void createTitle(Model model, PaperRow paperRow, OntClass paperClass, DatatypeProperty titleProperty){
         System.out.println(paperRow.title);
         Paper paper = new Paper(model, paperRow.title, baseURI+paperRow.title.replace(" ", "_"), titleProperty, paperClass);
         model.add(paper, RDF.type, FOAF.Document);
+    }
+
+    public static void createPoster(Model model, PaperRow paperRow, OntClass posterClass, DatatypeProperty titleProperty){
+        System.out.println(paperRow.title);
+        Poster poster = new Poster(model, paperRow.title, baseURI+paperRow.title.replace(" ", "_"), titleProperty, posterClass);;
+        model.add(poster, RDF.type, FOAF.Document);
     }
 
     public static void saveModelAsRdfXml(Model model, String filePath, String format) {
