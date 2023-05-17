@@ -57,8 +57,8 @@ public class PaperRow {
         affiliations = record.get("Affiliations").split(",");
         authorsWithAffiliations = record.get("Authors with affiliations").split(",");
         abstractContent = record.get("Abstract");
-        authorKeywords = record.get("Author Keywords").split(",");
-        indexKeywords = record.get("Index Keywords").split(",");
+        authorKeywords = record.get("Author Keywords").split(";");
+        indexKeywords = record.get("Index Keywords").split(";");
         documentType = record.get("Document Type");
         publicationStage = record.get("Publication Stage");
         accessType = record.get("Access Type");

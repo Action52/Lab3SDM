@@ -118,7 +118,7 @@ public class ABox {
                 paper.addProperty(titleProperty, paperInfo.title);
                 paper.addProperty(abstractProperty, paperInfo.abstractContent);
 
-                int index = Math.min(Math.min(paperInfo.authors.length, paperInfo.indexKeywords.length), paperInfo.affiliations.length);
+                int index = Math.min(Math.min(Math.min(paperInfo.authors.length, paperInfo.indexKeywords.length), paperInfo.affiliations.length), paperInfo.authorIds.length);
 
                 Individual area = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.authorKeywords[0]), areaClass);
 
@@ -159,7 +159,7 @@ public class ABox {
                 second_review.addProperty(evaluates, paper);
 
 
-                if (first_decision.equalsIgnoreCase("accepted") && second_decision.equalsIgnoreCase("accepted")){
+                if (first_decision.toLowerCase().contains("accepted") && second_decision.toLowerCase().contains("accepted")){
 
                     Individual publication = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.title.concat("#pub")), publicationClass);
 
@@ -193,7 +193,7 @@ public class ABox {
                     else {
                         Individual publicationList = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName.concat("#proceeding#")+paperInfo.year), confproceedingClass);
                         Individual leader = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.leader), chairmanClass);
-                        if (paperInfo.conferenceType.equalsIgnoreCase("regular conference")){
+                        if (paperInfo.conferenceType.toLowerCase().contains("regularconference")){
                             Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), regularconfClass);
 //                            venue.addProperty(editionProperty, paperInfo.edition);
                             publicationList.addProperty(resumes, venue);
@@ -203,7 +203,7 @@ public class ABox {
                             venue.addProperty(venuenameProperty, paperInfo.generalConferenceName.toString());
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
-                        } else if (paperInfo.conferenceType.equalsIgnoreCase("expert group")) {
+                        } else if (paperInfo.conferenceType.toLowerCase().contains("expertgroup")) {
                             Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), expertgroupClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
@@ -212,7 +212,7 @@ public class ABox {
                             venue.addProperty(venuenameProperty, paperInfo.generalConferenceName.toString());
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
-                        } else if (paperInfo.conferenceType.equalsIgnoreCase("symposium")) {
+                        } else if (paperInfo.conferenceType.toLowerCase().contains("symposium")) {
                             Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), symposiumClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
@@ -221,7 +221,7 @@ public class ABox {
                             venue.addProperty(venuenameProperty, paperInfo.generalConferenceName.toString());
                             venue.addProperty(presents, area);
 //                        venue.addProperty(venuedateProperty, paperInfo.date);
-                        } else if (paperInfo.conferenceType.equalsIgnoreCase("workshop")) {
+                        } else if (paperInfo.conferenceType.toLowerCase().contains("workshop")) {
                             Individual venue = publication_ontmodel.createIndividual(encodeURI(baseURI,paperInfo.generalConferenceName+paperInfo.year), workshopClass);
                             publicationList.addProperty(resumes, venue);
                             venue.addProperty(ledBy, chairmanClass);
@@ -237,7 +237,6 @@ public class ABox {
                         second_reviewer.addProperty(assignedBy, leader);
 
 //                         venue.addProperty(editionProperty, paperInfo.edition);
-
 
 
                     }
