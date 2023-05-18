@@ -1,0 +1,184 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:gf="http://www.publicationprocess.com/ontology#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Symposium">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Workshop">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Conference"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Area"/>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#FullPaper">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Paper"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Author">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Academic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Journal">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Venue"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Editor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Leader"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#PublicationList"/>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Publication"/>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#ConferenceProceeding">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#PublicationList"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Chairman">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Leader"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Reviewer">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Academic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Conference">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Venue"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#ShortPaper">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Poster">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#ExpertGroup">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Conference"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#RegularConference">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Conference"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Leader">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Academic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#Review"/>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#JournalVolume">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#PublicationList"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.publicationprocess.com/ontology#DemoPaper">
+    <rdfs:subClassOf rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#led-by">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Chairman"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Conference"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#approves">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Publication"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#evaluates">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#resumes">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Conference"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#ConferenceProceeding"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#submitted-to">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Venue"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#published-at">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#PublicationList"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Publication"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#performs">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Reviewer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#writes">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Author"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#assigned-by">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Leader"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Reviewer"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#edited-by">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Editor"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Journal"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#presents">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Area"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Venue"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#embodies">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Area"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.publicationprocess.com/ontology#compiled-for">
+    <rdfs:range rdf:resource="http://www.publicationprocess.com/ontology#Journal"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#JournalVolume"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#title">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#h-index">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Academic"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#venue-name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#poster-publication-year">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Poster"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#justification">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#impact-factor">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Journal"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#venue-date">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Venue"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#edition">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Conference"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#decision">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Review"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#abstract">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Paper"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#affiliation">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Academic"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#keyword">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Area"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#person-name">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Academic"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.publicationprocess.com/ontology#publication-year">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="http://www.publicationprocess.com/ontology#Publication"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>
